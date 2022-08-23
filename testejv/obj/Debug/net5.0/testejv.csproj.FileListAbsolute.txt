@@ -1,0 +1,16 @@
+C:\Users\Gabriele\source\repos\testejv\testejv\obj\Debug\net5.0\testejv.csproj.AssemblyReference.cache
+C:\Users\Gabriele\source\repos\testejv\testejv\obj\Debug\net5.0\testejv.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriele\source\repos\testejv\testejv\obj\Debug\net5.0\testejv.AssemblyInfoInputs.cache
+C:\Users\Gabriele\source\repos\testejv\testejv\obj\Debug\net5.0\testejv.AssemblyInfo.cs
+C:\Users\Gabriele\source\repos\testejv\testejv\obj\Debug\net5.0\testejv.csproj.CoreCompileInputs.cache
+C:\Users\Gabriele\source\repos\testejv\testejv\bin\Debug\net5.0\testejv.exe
+C:\Users\Gabriele\source\repos\testejv\testejv\bin\Debug\net5.0\testejv.deps.json
+C:\Users\Gabriele\source\repos\testejv\testejv\bin\Debug\net5.0\testejv.runtimeconfig.json
+C:\Users\Gabriele\source\repos\testejv\testejv\bin\Debug\net5.0\testejv.runtimeconfig.dev.json
+C:\Users\Gabriele\source\repos\testejv\testejv\bin\Debug\net5.0\testejv.dll
+C:\Users\Gabriele\source\repos\testejv\testejv\bin\Debug\net5.0\testejv.pdb
+C:\Users\Gabriele\source\repos\testejv\testejv\obj\Debug\net5.0\testejv.dll
+C:\Users\Gabriele\source\repos\testejv\testejv\obj\Debug\net5.0\refint\testejv.dll
+C:\Users\Gabriele\source\repos\testejv\testejv\obj\Debug\net5.0\testejv.pdb
+C:\Users\Gabriele\source\repos\testejv\testejv\obj\Debug\net5.0\testejv.genruntimeconfig.cache
+C:\Users\Gabriele\source\repos\testejv\testejv\obj\Debug\net5.0\ref\testejv.dll
