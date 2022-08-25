@@ -18,7 +18,8 @@ namespace Pjogodavelha
             Console.WriteLine("-----------------------");
             Console.WriteLine("     Jogo da Velha     ");
             Console.WriteLine("_______________________");
-
+            Console.WriteLine("\n\nO jogo sempre iniciará como X, escolham entre si :)\nObs: Aperte ENTER para exibir o resultado da partida. ");
+            Console.WriteLine("\n\nSugestão: Vocês podem escolher no par ou impar, bom jogo :D");
 
 
             //alimentando a matriz
@@ -44,7 +45,7 @@ namespace Pjogodavelha
                 Console.WriteLine();
 
             }
-            Console.Write($"Onde você quer marcar {turnos} ?");
+            Console.Write($"\n\nOnde você quer marcar {turnos} ?");
             
 
 
@@ -84,7 +85,8 @@ namespace Pjogodavelha
                 if (matriz[0, 0] == matriz[1, 1] && matriz[1, 1] == matriz[2, 2] ||
                     matriz[0, 2] == matriz[1, 1] && matriz[1, 1] == matriz[2, 0])
                 {
-                    Console.WriteLine($"O ganhador é: {turnos}");
+                    Console.WriteLine($"O ganhador é: "+turnos+" \nParabéns! Não é em tudo que vc perde não é mesmo?");
+                    Console.WriteLine("\nFIM");
                     break;
                 }
 
@@ -92,7 +94,8 @@ namespace Pjogodavelha
                     matriz[0, 1] == matriz[1, 1] && matriz[1, 1] == matriz[2, 1] ||
                     matriz[0, 2] == matriz[1, 2] && matriz[1, 2] == matriz[2, 2])
                 {
-                    Console.WriteLine($"O ganhador é: {turnos}");
+                    Console.WriteLine($"O ganhador é: "+turnos+ " \nParabéns! Não é em tudo que vc perde não é mesmo?");
+                    Console.WriteLine("\nFIM");
                     break;
                 }
 
@@ -100,7 +103,8 @@ namespace Pjogodavelha
                     matriz[1, 0] == matriz[1, 1] && matriz[1, 1] == matriz[1, 2] ||
                     matriz[2, 0] == matriz[2, 1] && matriz[2, 1] == matriz[2, 2])
                 {
-                    Console.WriteLine($"O ganhador é: {turnos}");
+                    Console.WriteLine($"O ganhador é: " + turnos + " \nParabéns! Não é em tudo que vc perde não é mesmo?");
+                    Console.WriteLine("\nFIM");
                     break;
                 }
                 else
@@ -115,9 +119,12 @@ namespace Pjogodavelha
                     }
 
                 }
+                
 
 
-               
+
+
+
 
 
                 tentativas++;
