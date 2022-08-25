@@ -18,7 +18,7 @@ namespace Pjogodavelha
             Console.WriteLine("-----------------------");
             Console.WriteLine("     Jogo da Velha     ");
             Console.WriteLine("_______________________");
-            Console.WriteLine("\n\nO jogo sempre iniciará como X, escolham entre si :)\nObs: Aperte ENTER para exibir o resultado da partida. ");
+            Console.WriteLine("\n\nO jogo sempre iniciará como X, escolham entre si :)\nObs: A  perte ENTER para exibir o resultado da partida. ");
             Console.WriteLine("\n\nSugestão: Vocês podem escolher no par ou impar, bom jogo :D");
 
 
@@ -121,13 +121,26 @@ namespace Pjogodavelha
                 }
                 
 
-
-
-
-
-
+                while (!indexNumeros.Contains(jogada))
+                {
+                    Console.WriteLine();
+                    Console.Write("Temos um engraçadinho aqui? Reinicie o jogo e tente novamente!");
+                    jogada = Console.ReadLine();
+                    break;
+                }
 
                 tentativas++;
+
+
+
+
+
+
+
+
+
+
+
 
 
 
