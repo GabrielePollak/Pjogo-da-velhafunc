@@ -80,7 +80,11 @@ namespace Pjogodavelha
 
                 jogada = Console.ReadLine();
 
-               //verificando vitoria
+               
+
+
+
+                //verificando vitoria
 
                 if (matriz[0, 0] == matriz[1, 1] && matriz[1, 1] == matriz[2, 2] ||
                     matriz[0, 2] == matriz[1, 1] && matriz[1, 1] == matriz[2, 0])
@@ -119,15 +123,11 @@ namespace Pjogodavelha
                     }
 
                 }
-                
+                Console.WriteLine("Os dois são perdedores :D");
 
-                while (!indexNumeros.Contains(jogada))
-                {
-                    Console.WriteLine();
-                    Console.Write("Temos um engraçadinho aqui? Reinicie o jogo e tente novamente!");
-                    jogada = Console.ReadLine();
-                    break;
-                }
+              
+
+               
 
                 tentativas++;
 
