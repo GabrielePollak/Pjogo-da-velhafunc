@@ -125,9 +125,16 @@ namespace Pjogodavelha
                 }
                 Console.WriteLine("Os dois são perdedores :D");
 
-              
+                while (!indexNumeros.Contains(jogada))
+                {
+                    Console.WriteLine();
+                    jogada = Console.ReadLine();
+                    break;
+                }
 
-               
+
+
+
 
                 tentativas++;
 
